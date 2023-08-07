@@ -87,7 +87,7 @@ function func() {
     .backgroundColor.slice(4, -1)
     .split(", ")
     .map(Number);
-  isWin = areArraysEqualWithTolerance(qwe, asd, 7);
+  isWin = areArraysEqualWithTolerance(qwe, asd, 12);
   if (isWin) {
     win.style.transform = "scale(1)";
     audio.play();
